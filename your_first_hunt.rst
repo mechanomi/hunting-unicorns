@@ -1,7 +1,7 @@
 Your First Hunt
 ===============
 
-Okay. You've purchased your equipment from a reputable goblin stockist or local auction house. You've selected an enchanted forest and spoken to the appropriate lorekeeper. Perhaps you've even enlisted the help of a friend.
+Okay. You've purchased your equipment from a reputable goblin stockist or auction house. You've selected an enchanted forest and spoken to the appropriate lorekeeper. Perhaps you've even enlisted the help of a friend.
 
 What's next?
 
@@ -76,7 +76,7 @@ Make The Kill
 
 Okay, you've detected a unicorn.
 
-This bit is easy.
+This bit's easy.
 
 Grab the rocket launcher, point it at the unicorn, and fire.
 

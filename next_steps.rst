@@ -5,7 +5,7 @@ Next Steps
 
    .. image:: _static/dead-unicorn.png
 
-   A harrowing depiction of what to expect in the aftermath.
+   A harrowing depiction of what to expect at the scene of impact.
 
 Congratulations! You murdered your first unicorn.
 
