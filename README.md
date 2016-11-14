@@ -2,7 +2,7 @@
 
 These docs are written in [reStructuredText](http://sphinx-doc.org/rest.html) and are built with [Sphinx](http://www.sphinx-doc.org/) using the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
 
-# Set Up
+# Prerequisites
 
 You can install the required Python modules like so:
 
