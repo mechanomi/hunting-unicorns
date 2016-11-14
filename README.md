@@ -27,3 +27,7 @@ If you're editing the docs, you can get automatic build updates like so:
 ```
 $ sphinx-autobuild . _build/html
 ```
+
+# Contributing
+
+Have experience hunting unicorns? Tried something in this guide that didn't work or could be improved? We want your contribution! Open an issue or send a PR.
