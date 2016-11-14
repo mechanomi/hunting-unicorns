@@ -91,9 +91,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/HuntingUnicornsWithGoblinTechAQuickStartGuide.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/HuntingUnicorns.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/HuntingUnicornsWithGoblinTechAQuickStartGuide.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/HuntingUnicorns.qhc"
 
 .PHONY: applehelp
 applehelp:
@@ -110,8 +110,8 @@ devhelp:
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/HuntingUnicornsWithGoblinTechAQuickStartGuide"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/HuntingUnicornsWithGoblinTechAQuickStartGuide"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/HuntingUnicorns"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/HuntingUnicorns"
 	@echo "# devhelp"
 
 .PHONY: epub
