@@ -8,7 +8,7 @@ Equipment Acquisition
 
 There are three basic pieces of equpitment you'll need for hunting unicorns.
 
-As unicorns are solitary creatures, and distrusting of non-magical beings, unless you are very lucky, a *lure* will be needed to attract a unicorn.
+As unicorns are solitary creatures, and distrusting of non-magical beings, unless you are very lucky, a *magical lure* will be needed to attract a unicorn.
 
 You cannot decamp anywhere near your lure, or the unicorn will notice you and not come close. And if you can see the unicorn, there's a good chance the unicorn can see you. For this reason, it's vital that you bring some sort of *detection system* with you.
 
@@ -16,7 +16,7 @@ Once a unicorn has been lured and detected, you can attempt to make the kill. So
 
 We recommend:
 
-- *Acme Lure Pro™*
+- *Acme Magic Lure Pro™*
 - *The Combo Radar and Alerting System 3000*
 - *Goblin Rocket Launcher XXL*
 
@@ -24,10 +24,13 @@ Feel free to make your own product selections according to availability and budg
 
 The rest of this guide will assume you're using these products, but the instructions should be easy to adapt in case you're not.
 
-Bait
-----
+.. NOTE::
+   Don't forget to pack ammo. And bring a good supply of phlogiston with you to power your devices. It's also a good idea to bring basic repair materials like string and tape.
 
-Most technological lure systems require bait.
+Magical Bait
+------------
+
+Technological lure systems require *magical bait*.
 
 The basic principle is simple. The machine extracts and amplifies any of the bait's magical energy and radiates it into the surroundings. Because magical creatures are attracted to source of magic similar to their own, you can effectively lure any magical creature with a lesser, easier to catch, magical creature of the same type.
 
