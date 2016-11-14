@@ -52,7 +52,7 @@ subtitle = 'A Quick Start Guide'
 full_title = '%s: %s' % (title, subtitle)
 slug = 'HuntingUnicorns'
 project = full_title
-copyright = '2016, Noah Slater and contributors. This work is licensed under a Creative Commons Attribution 4.0 International License'
+copyright = '2016, the project contributors. This work is licensed under a Creative Commons Attribution 4.0 International License'
 author = 'Noah Slater'
 
 # The version info for the project you're documenting, acts as replacement for

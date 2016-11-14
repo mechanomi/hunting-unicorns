@@ -34,4 +34,4 @@ Have experience hunting unicorns? Tried something in this guide that didn't work
 
 ## License
 
-Copyright 2016, Noah Slater and contributors. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Copyright 2016, the project contributors. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
