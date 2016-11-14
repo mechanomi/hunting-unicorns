@@ -12,7 +12,7 @@ Assuming you've made it to the enchanted forest without blowing yourself up, you
 
 You're looking for two important things:
 
-1. A glade or clearing with a diameter of less than 40 meters. For some reason, unicorns are often found in such areas. You can use this to your advantage. They also have the benefit of making it easier to set up a detection system and target your ranged weapon.
+1. A glade or clearing with a diameter of less than 40 meters. For some reason, unicorns are often found in such areas. You can use this to your advantage. Glades and clearings also have the benefit of making it easier to set up a detection system and target your ranged weapon.
 2. A nearby area with good cover for hiding. Ideally, you will be totally hidden from the unicorn until the time comes to make the kill. The cover you select should make it as easy as possible to switch from cover to taking up aim.
 
 .. TIP::

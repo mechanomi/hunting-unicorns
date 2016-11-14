@@ -9,7 +9,7 @@ Next Steps
 
 Congratulations! You murdered your first unicorn.
 
-As noted in the first section, there is a good chance that you are now cursed for life. But as far as the authors know, unicorn curses are not additive. If this is the case, and if you can live with yourself, you may as well make the most of it by murdering more unicorns.
+As noted in the first section, there is a good chance that you are now cursed for life. But as far as the authors know, unicorn curses are not cumulative. If this is the case, and if you can live with yourself, you may as well make the most of it by murdering more unicorns, now that you're a unicorn murderer.
 
 Once you have come to terms with what you have done, collect all the raw unicorn materials you can gather. Fill the containers you brought, pack up your equipment, and make your way home.
 
