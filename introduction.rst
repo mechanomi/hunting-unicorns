@@ -9,6 +9,12 @@ Before you continue, please read the important information in this section.
 Unicorns
 --------
 
+.. sidebar:: Visual Appearance
+
+   .. image:: _static/unicorn.png
+   |
+   Here's what a typical unicorn looks like. Note the single spiraling horn and the brilliant white coat.
+
 Unicorns are highly elusive magical equine beasts known for their beauty, purity, and healing properties. Unlike the common horse, they have cloven hooves, a goat-like beard, a brilliant white coat, and, most notably, a single spiraling horn.
 
 Whilst unicorn meat is (controversially) considered a delicacy by some, unicorns are most profitable for their horns, blood, and hair. These parts of the unicorn can be used in the construction of wands and the preparation of powerful enchantments and potions.
