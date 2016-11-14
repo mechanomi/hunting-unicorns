@@ -30,7 +30,7 @@ $ sphinx-autobuild . _build/html
 
 ## Contributing
 
-Have experience hunting unicorns? Tried something in this guide that didn't work or could be improved? We want your contribution! Open an issue or send a PR.
+Have experience hunting unicorns? Tried something in this guide that didn't work or could be improved? We want your contribution! Open an issue or send a pull request.
 
 ## License
 
