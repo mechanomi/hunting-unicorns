@@ -32,7 +32,7 @@ There are two common ways to hunt magical beasts:
 
 These aren't our only options, however.
 
-There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any local goblin trading posts. And in addition, it is relatively inexpensive in comparison with the gnome and dwarf technology.
+There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any local goblin trading posts. And in addition, it is relatively inexpensive in comparison with gnome and dwarf technology.
 
 Unfortunately, goblin technology is fairly unreliable and often comes with no warranty. Whether this makes sense for you will depend on your specific circumstances and requirements.
 
