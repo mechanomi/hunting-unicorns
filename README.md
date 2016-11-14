@@ -31,3 +31,7 @@ $ sphinx-autobuild . _build/html
 ## Contributing
 
 Have experience hunting unicorns? Tried something in this guide that didn't work or could be improved? We want your contribution! Open an issue or send a PR.
+
+## License
+
+Copyright 2016, Noah Slater and contributors. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
