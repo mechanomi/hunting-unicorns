@@ -27,6 +27,7 @@ Also, don't forget to pack:
 - Ammo (rockets or homing missiles)
 - A good supply of phlogiston to power your devices
 - Basic repair materials like string and tape
+- Containers for carrying unicorn parts
 
 Magical Bait
 ------------
