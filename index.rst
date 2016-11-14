@@ -1,7 +1,7 @@
 Hunting Unicorns With Goblin Technology: A Quick Start Guide
 ============================================================
 
-Unicorn horns, blood, and hair consistently fetch some of the highest prices you're likely to see for unprocessed animal goods at your local auction house. It's no wonder, then, that many enterprising hunters are wanting to take advantage of this market situation.
+Unicorn-derived items consistently fetch some of the highest prices you're likely to see for unprocessed animal goods at your local auction house. It's no wonder, then, that many enterprising hunters want to take advantage of this market situation.
 
 Unfortunately, Unicorns are both difficult to find and difficult to catch. And many of the ways to approach this problem require advanced skills or high equipment costs, making the Unicorn trade largely inaccessible to the casual hunter.
 
