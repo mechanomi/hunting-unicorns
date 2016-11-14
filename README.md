@@ -5,7 +5,7 @@ These docs are written in [reStructuredText](http://sphinx-doc.org/rest.html) an
 You can install the required Python modules like so:
 
 ```
-pip install sphinx sphinx_rtd_theme
+$ pip install sphinx sphinx_rtd_theme
 ```
 
 If you don't have `pip` installed, consult [the Python docs](https://packaging.python.org/installing/) for more help.
