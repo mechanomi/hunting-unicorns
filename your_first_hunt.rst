@@ -12,11 +12,11 @@ Assuming you've made it to the enchanted forest without blowing yourself up, you
 
 You're looking for two important things:
 
-1. A glade or clearing with a diameter of less than 40 meters. For some reason, unicorns are often found in such areas. You can use this to your advantage. They also have the benefit of making it easier to use your long-range weapon.
+1. A glade or clearing with a diameter of less than 40 meters. For some reason, unicorns are often found in such areas. You can use this to your advantage. They also have the benefit of making it easier to set up a detection system and target your ranged weapon.
 2. A nearby area with good cover for hiding. Ideally, you will be totally hidden from the unicorn until the time comes to make the kill. The cover you select should make it as easy as possible to switch from cover to taking up aim.
 
 .. TIP::
-   Plan to get to the forest for sunrise and to leave before sundown. This will increase your ability to hunt and your safety. Most enchanted forests are not too much fun after dark.
+   Plan to get to the forest for sunrise and to leave before sundown. This will increase your ability to hunt safely. Most enchanted forests are not too much fun after dark.
 
 Set Up The Detection System
 ---------------------------
@@ -29,20 +29,20 @@ Carefully unpack each sensor and check the phlogiston levels. Each sensor should
 
 Once unpacked and topped up, carry the sensors, *carefully*, one by one, and install them onto the most appropriate trees around the glade or clearing. You want to get as much coverage as possible, so space them equidistantly if you can.
 
-If the claw malfunctions, use some of the string or tape you brought with you to jury rig the sensor to the trunk.
+If the attached claw malfunctions, use some of the string or tape you brought with you to jury rig the sensor to the trunk.
 
 Each remote sensor has a max range of 20 meters.
 
-Once the sensors have been placed, return to your hideout and unpack the radar and alerting system. Switch it on, and select *Pair* from the function menu. Wait for the device to detect and pair with each of the sensors before continuing.
+Once the sensors have been placed, return to your hideout and unpack the radar and alerting system. Switch it on, and select *Pair* from the main function menu. Wait for the device to detect and pair with each of the sensors before continuing.
 
-If you find that one or more of the sensors isn't being detected, you may have to perform a hard reset of either the sensor or your radar and alerting system. If that still doesn't work, check your phlogiston levels. Else, consult the troubleshooting section of the device manual.
+If you find that one or more of the sensors isn't being detected, you may have to perform a hard reset of your sensors and detector system. If that still doesn't work, check the phlogiston levels. Else, consult the troubleshooting section of the device manual.
 
 Set Up The Magical Lure
 -----------------------
 
 Now we've set up our detection system, we can set up the magical lure.
 
-Return to the glade or clearing and, *carefully*, place the Acme Magic Lure Pro™ down in the centre. Check the phlogiston levels, and top up if necessary.
+Return to the glade or clearing and, once again, *carefully*, place the Acme Magic Lure Pro™ down in the centre. Check the phlogiston levels, and top up if necessary.
 
 Switch the machine on and check the status light. If everything is working correctly, the light should be green.
 
@@ -69,12 +69,14 @@ Put the headphones on that came with your detection system, and wait.
 
 If anything steps into the glade or clearing, you should hear a soft ping. Check the monitor. The display should tell you more about what has been detected. Expect most of the pings to be uninteresting animals.
 
-When and if a unicorn does eventually appear, be prepared to strike swiftly. Unicorns are perceptive, nervous, and extremely fast.
+If and when a unicorn does eventually appear, be prepared to strike swiftly. Unicorns are perceptive, nervous, and extremely fast.
 
 Make The Kill
 -------------
 
-This is the easiest bit.
+Okay, you've detected a unicorn.
+
+This bit is easy.
 
 Grab the rocket launcher, point it at the unicorn, and fire.
 

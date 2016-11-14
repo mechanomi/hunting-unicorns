@@ -21,12 +21,12 @@ Whilst unicorn meat is (controversially) considered a delicacy by some, unicorns
 
 Specifically:
 
-- *Unicorn horns* have tremendous healing properties and can be sold whole or in powdered form ready to be used in potion making. Unicorn horn is the primary ingredient in *Antidote to Common Poisons* potion.
-- *Unicorn blood* is known for its life-giving properties and can be drunk raw for extremely potency, or mixed into potions as needed.
-- *Unicorn hair* is also used in some potions, but most commonly used a wand core. Wands with a unicorn hair core are known for their consistency and faith to the wand bearer.
+- *Unicorn horns* have tremendous healing properties and can be sold whole or in powdered form ready to be used in potion making. Unicorn horn is the primary ingredient in the well known *Antidote to Common Poisons* potion.
+- *Unicorn blood* is known for its life-giving properties and can be drunk raw for extreme potency, or mixed into potions as needed.
+- *Unicorn hair* is also used in some potions, but most commonly used as a wand core. Wands with a unicorn hair core are known for their consistency and faith to the wand bearer.
 
 .. WARNING::
-   It is said those who slay a unicorn are cursed for life. It is also said the blood of a slain unicorn, or potions prepared from the same, will curse you for life as soon as it touches your lips.
+   It is said those who slay a unicorn are cursed for life. It is also said the blood of a slain unicorn, or potions prepared from the same, will curse you for life as soon as it touches your lips. The authors make no representations as to the accuracy of this information.
 
 Goblin Technology
 -----------------
@@ -38,9 +38,9 @@ There are two common ways to hunt magical beasts:
 
 These aren't our only options, however.
 
-There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any local goblin trading posts. And in addition, it is relatively inexpensive in comparison with gnome and dwarf technology.
+There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any goblin trading posts. And in addition, it is relatively inexpensive in comparison with gnome and dwarf technology.
 
 Unfortunately, goblin technology is fairly unreliable and often comes with no warranty. Whether this makes sense for you will depend on your specific circumstances and requirements.
 
 .. DANGER::
-   Goblins are obsessed with explosives. When goblin technology malfunctions it usually does so with a bang. This can result in the rapid unscheduled disassembly of your equipment, or, if you are standing too close, yourself. Plan accordingly.
+   Goblins are known for their fondness of explosives. When goblin technology malfunctions it usually does so with a bang, even when there's no logical reason for the device to have contained explosives. This can result in the rapid unscheduled disassembly of your equipment, or, if you are standing too close, yourself. Plan accordingly.
