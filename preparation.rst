@@ -32,6 +32,12 @@ Also, don't forget to pack:
 Magical Bait
 ------------
 
+.. sidebar:: What To Look For
+
+   .. image:: _static/bunny-rabbit.png
+
+   It's okay to extract the magic and life energy from these animals, because they don't have feelings.
+
 Technological lure systems require *magical bait*.
 
 The basic principle is simple. The machine extracts and amplifies any of the bait's magical energy and radiates it into the surroundings. Because magical creatures are attracted to sources of magic similar to their own, you can effectively lure any magical creature with a lesser, easier to catch, magical creature of the same type.
@@ -47,7 +53,7 @@ All four can be caught by hand or bought pre-prepared.
 
 Catching the first three in-situ is easy enough. Be sure to bring a rabbit trap, a net, and a few glass jars with you.
 
-Fawns are tricker to catch, and it is recommended instead that you purchase fawn flanks at your local auction house or trading post.
+Fawns are trickier to catch, and it is recommended instead that you purchase fawn flanks at your local auction house or trading post.
 
 Freshly caught bait is preferable because it still retains most of its magic, making it much more effective. But it's usually a good idea to bring some pre-prepared bait, in case you have difficulties catching bait on the day.
 
