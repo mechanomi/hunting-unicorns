@@ -38,5 +38,3 @@ Unfortunately, goblin technology is fairly unreliable and often comes with no wa
 
 .. DANGER::
    Goblins are obsessed with explosives. When goblin technology malfunctions it usually does so with a bang. This can result in the rapid unscheduled disassembly of your equipment, or, if you are standing too close, yourself. Plan accordingly.
-
-
