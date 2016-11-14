@@ -12,7 +12,7 @@ Unicorns
 .. sidebar:: Visual Appearance
 
    .. image:: _static/unicorn.png
-   |
+
    Here's what a typical unicorn looks like. Note the single spiraling horn and the brilliant white coat.
 
 Unicorns are highly elusive magical equine beasts known for their beauty, purity, and healing properties. Unlike the common horse, they have cloven hooves, a goat-like beard, a brilliant white coat, and, most notably, a single spiraling horn.
