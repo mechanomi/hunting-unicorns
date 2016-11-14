@@ -1,4 +1,4 @@
-# Hunting Unicorns With Goblin Tech: A Quick Start Guide
+# Hunting Unicorns With Goblin Technology: A Quick Start Guide
 
 [![Documentation Status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest)
 

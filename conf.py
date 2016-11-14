@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-title = 'Hunting Unicorns With Goblin Tech'
+title = 'Hunting Unicorns With Goblin Technology'
 subtitle = 'A Quick Start Guide'
 full_title = '%s: %s' % (title, subtitle)
 slug = 'HuntingUnicorns'
@@ -137,7 +137,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Hunting Unicorns With Goblin Tech: A Quick Start Guide v0.1'
+# html_title = 'Hunting Unicorns With Goblin Technology: A Quick Start Guide'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
