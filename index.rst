@@ -1,5 +1,5 @@
-Welcome to Hunting Unicorns With Goblin Tech: A Quick Start Guide
-=================================================================
+Hunting Unicorns With Goblin Tech: A Quick Start Guide
+======================================================
 
 Contents:
 
