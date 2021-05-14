@@ -1,6 +1,6 @@
 # Hunting Unicorns With Goblin Technology: A Quick Start Guide
 
-[![Build status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest)
+[![Build status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest) [![Total alerts](https://img.shields.io/lgtm/alerts/g/norosa/hunting-unicorns.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/norosa/hunting-unicorns/alerts/)
 
 This documentation project is written in [reStructuredText](http://sphinx-doc.org/rest.html) (RST) and is built using [Sphinx](http://www.sphinx-doc.org/) with the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
 
@@ -16,6 +16,7 @@ The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
       - [Manual build](#manual-build)
       - [Autobuild with live-reloads](#autobuild-with-live-reloads)
     + [Troubleshooting](#troubleshooting)
+  * [Continuous integration](#continuous-integration)
   * [Contributing](#contributing)
   * [License](#license)
 
@@ -151,6 +152,20 @@ If you experience any other issues, try resetting the Python virtual environment
 ```console
 $ rm -rf _venv
 ```
+
+## Continuous integration
+
+Every pull request must satisfy all configured checks before being merged:
+
+- A [GitHub Actions](https://github.com/features/actions) workflow named [Prose](https://github.com/norosa/hunting-unicorns/blob/nomi/vale/.github/workflows/prose.yml) has two steps:
+
+  1. **Run linter** uses the [official GitHub Vale action](https://github.com/errata-ai/vale-action) to lint all Markdown and RST files. We have configured [Vale](https://github.com/errata-ai/vale) to use [proselint](https://github.com/errata-ai/proselint) as an initial experiment. However, this setup has the possibility of being expanded into an automated style guide.
+
+  2. **Vale** reports any lint messages produced for lines modified by the pull request. Each message carries an associated severity: *suggestion*, *warning*, and *error*. Errors and warnings must be resolved. Suggestions may be ignored.
+
+- [Read The Docs](https://docs.readthedocs.io/en/stable/pull-requests.html) attempts to build Sphinx docs on every pull request. If the build succeeds, you can select *Details* on this check to preview the documentation on the corresponding branch.
+
+- [LGTM](https://lgtm.com/) analyzes Python code for common security issues. Select *Details* on this check for information about any detected issues.
 
 ## Contributing
 
