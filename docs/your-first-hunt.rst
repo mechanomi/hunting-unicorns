@@ -1,3 +1,6 @@
+.. _first-hunt:
+
+===============
 Your First Hunt
 ===============
 
@@ -5,21 +8,31 @@ Okay. You've purchased your equipment from a reputable goblin stockist or auctio
 
 What's next?
 
+
+.. _first-hunt-spot:
+
 Find a Good Spot
-----------------
+================
 
 Assuming you've made it to the enchanted forest without blowing yourself up, your next challenge is to find a decent spot to set up camp.
 
 You're looking for two important things:
 
+.. rst-class:: open
+
 1. A glade or clearing with a diameter of less than 40 meters. For some reason, unicorns are often found in such areas. You can use this to your advantage. Glades and clearings also have the benefit of making it easier to set up a detection system and target your ranged weapon.
+
 2. A nearby area with good cover for hiding. Ideally, you will be totally hidden from the unicorn until the time comes to make the kill. The cover you select should make it as easy as possible to switch from cover to taking up aim.
 
 .. TIP::
+
    Plan to get to the forest for sunrise and to leave before sundown. This will increase your ability to hunt safely. Most enchanted forests are not too much fun after dark.
 
+
+.. _first-hunt-detection-system:
+
 Set Up The Detection System
----------------------------
+===========================
 
 The first thing you must do is set up the detection system.
 
@@ -37,8 +50,11 @@ Once the sensors have been placed, return to your hideout and unpack the radar a
 
 If you find that one or more of the sensors isn't being detected, you may have to perform a hard reset of your sensors and detector system. If that still doesn't work, check the phlogiston levels. Else, consult the troubleshooting section of the device manual.
 
+
+.. _first-hunt-lure:
+
 Set Up The Magical Lure
------------------------
+=======================
 
 Now we've set up our detection system, we can set up the magical lure.
 
@@ -49,6 +65,7 @@ Switch the machine on and check the status light. If everything is working corre
 Select your magical bait and place it in the transparent vessel located at the top of the machine.
 
 .. DANGER::
+
    You must only use bait that is appropriate for unicorns. Night spores, for instance, are easily mistakable for forest sprites, but attract shadow prowlers instead of unicorns. If you doubt your identification skills, be sure to bring a portable bestiary with you.
 
 Close the vessel lid and make sure the bait is secured, then switch the machine from *On* to *Active* using the rotary dial on the side. The light should start flashing blue. That means the machine is working and the magical lure is active.
@@ -56,10 +73,14 @@ Close the vessel lid and make sure the bait is secured, then switch the machine 
 You can now return to your hideout.
 
 .. WARNING::
+
    If at any point the light on magical lure displays an unexpected colour, immediately consult the troubleshooting section of the device manual.
 
+
+.. _first-hunt-wait:
+
 Wait and Monitor
-----------------
+================
 
 You're back in your hideout, the magical lure is running, and your sensors are on, paired, and feeding data to your detection system.
 
@@ -71,8 +92,11 @@ If anything steps into the glade or clearing, you should hear a soft ping. Check
 
 If and when a unicorn does eventually appear, be prepared to strike swiftly. Unicorns are perceptive, nervous, and extremely fast.
 
+
+.. _first-hunt-kill:
+
 Make The Kill
--------------
+=============
 
 Okay, you've detected a unicorn.
 
@@ -81,4 +105,5 @@ This bit's easy.
 Grab the rocket launcher, point it at the unicorn, and fire.
 
 .. TIP::
+
    If your aim isn't so good, try homing missiles.

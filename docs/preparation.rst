@@ -1,15 +1,25 @@
+.. _prep:
+
+===========
 Preparation
 ===========
 
 Preparation is key if you want to ensure a successful hunting trip.
 
+
+.. _prep-equipment:
+
 Equipment Acquisition
----------------------
+=====================
 
 There are three basic pieces of equipment you'll need for hunting unicorns:
 
+.. rst-class:: open
+
 1. Unicorns are solitary creatures, and distrusting of non-magical beings. Unless you are very lucky, a *magical lure* will be needed to attract one.
+
 2. You cannot camp near your lure, or the unicorn will likely notice you and not come close. And if you can see the unicorn, there's a good chance the unicorn can see you. For this reason, you will need some sort of *detection system*.
+
 3. Once a unicorn has been lured and detected, you can attempt to make the kill. Some sort of *long-range weapon* will be necessary for this.
 
 We recommend:
@@ -29,12 +39,15 @@ Also, don't forget to pack:
 - Basic repair materials like string and tape
 - Containers for carrying unicorn parts
 
+
+.. _prep-bait:
+
 Magical Bait
-------------
+============
 
 .. sidebar:: What To Look For
 
-   .. image:: _static/bunny-rabbit.png
+   .. image:: _static/img/bunny-rabbit.png
 
    It's okay to extract the magic and life energy from these animals, because they don't have feelings.
 
@@ -58,17 +71,25 @@ Fawns are trickier to catch, and it is recommended instead that you purchase faw
 Freshly caught bait is preferable because it still retains most of its magic, making it much more effective. But it's usually a good idea to bring some pre-prepared bait, in case you have difficulties catching bait on the day.
 
 .. NOTE::
+
    If you're buying pre-prepared bunny rabbits, butterflies, or fawn flanks, be sure to buy the magical variety (i.e. sourced from an enchanted forest).
 
+
+.. _prep-location:
+
 Location Selection
-------------------
+==================
 
 Unicorns typically inhabit enchanted forests. There should be one or more enchanted forests in your area. Check your local map for more information.
 
 Some considerations:
 
-* Goblin technology is prone to exploding unpredictably, especially when jostled. Lessen the chance of loss of life by choosing the easiest route (e.g. using paved roads) and try to keep your journey time as short as possible.
-* Size is always a trade-off. The smallest enchanted forests are the safest, but also present the least opportunities for catching unicorns. The largest forests prove better hunting grounds, but often attract the most dangerous beasts and most powerful, malevolent magic.
+.. rst-class:: open
+
+- Goblin technology is prone to exploding unpredictably, especially when jostled. Lessen the chance of loss of life by choosing the easiest route (e.g. using paved roads) and try to keep your journey time as short as possible.
+
+- Size is always a trade-off. The smallest enchanted forests are the safest, but also present the least opportunities for catching unicorns. The largest forests prove better hunting grounds, but often attract the most dangerous beasts and most powerful, malevolent magic.
 
 .. TIP::
+
    Don't rely on the gossip in your local tavern. Check with your local lorekeeper before selecting a forest. This will cost a small fee, but the peace of mind is worth it knowing for sure what sorts of beasts and magic await you.
