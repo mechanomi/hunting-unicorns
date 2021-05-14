@@ -1,37 +1,164 @@
 # Hunting Unicorns With Goblin Technology: A Quick Start Guide
 
-[![Documentation Status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest)
+[![Build status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest)
 
-These docs are written in [reStructuredText](http://sphinx-doc.org/rest.html) and are built with [Sphinx](http://www.sphinx-doc.org/) using the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
+This documentation project is written in [reStructuredText](http://sphinx-doc.org/rest.html) (RST) and is built using [Sphinx](http://www.sphinx-doc.org/) with the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
 
-## Prerequisites
+We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integration](https://docs.readthedocs.io/en/stable/pull-requests.html) and [continuous deployment](https://docs.readthedocs.io/en/stable/webhooks.html). Visit the [hunting-unicorns](https://readthedocs.org/projects/hunting-unicorns/) RTD project page for more information.
 
-You can install the required Python modules like so:
+The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
 
+**Table of contents**
+
+  * [Build](#build)
+    + [Build requirements](#build-requirements)
+    + [Build methods](#build-methods)
+      - [Manual build](#manual-build)
+      - [Autobuild with live-reloads](#autobuild-with-live-reloads)
+    + [Troubleshooting](#troubleshooting)
+  * [Contributing](#contributing)
+  * [License](#license)
+
+## Build
+
+### Build requirements
+
+To build the docs locally, you must have [Python 3](https://www.python.org/downloads/) installed.
+
+Change into the [docs](https://github.com/norosa/hunting-unicorns/tree/master/docs) directory:
+
+```console
+$ cd docs
 ```
-$ pip install sphinx sphinx_rtd_theme
+
+We recommend that you create a Python [virtual environment](https://docs.python.org/3/tutorial/venv.html) to install and manage the build [requirements](https://github.com/norosa/hunting-unicorns/tree/master/docs/requirements.txt).
+
+You can create a new virtual environment with the [venv](https://docs.python.org/3/library/venv.html)  module, like so:
+
+```console
+$ python3 -m venv _venv
 ```
 
-If you don't have `pip` installed, consult [the Python docs](https://packaging.python.org/installing/) for more help.
+Next, activate the virtual environment:
 
-## Building
-
-You can trigger a single HTML build like so:
-
-```
-$ make html
+```console
+$ . _venv/bin/activate
 ```
 
-If you're editing the docs, you can get automatic build updates like so:
+> :warning: **Every time you start a new shell, you must re-run the `. _venv/bin/activate` command before running any of the subsequent build commands.**
 
+After activating the virtual environment, make sure [pip](https://pypi.org/project/pip/) is up-to-date:
+
+```console
+$ python3 -m pip install --upgrade pip
 ```
-$ sphinx-autobuild . _build/html
+
+Then, install the requirements:
+
+```console
+$ python3 -m pip install -r requirements.txt
+```
+
+### Build methods
+
+#### Manual build
+
+The [sphinx-build](https://www.sphinx-doc.org/en/3.x/man/sphinx-build.html) program (which has already been installed into your virtual environment if you followed the instructions above) can generate a static HTML site from the RST source files. RTD uses this program to build the docs on their infrastructure whenever the `master` branch (or a pull request) receives an update.
+
+You can try this method for yourself:
+
+```console
+$ sphinx-build -b html . _out
+Running Sphinx v3.5.3
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 5 source files that are out of date
+updating environment: [new config] 5 added, 0 changed, 0 removed
+reading sources... [100%] your-first-hunt
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] your-first-hunt
+generating indices... genindex done
+writing additional pages... search done
+copying images... [100%] _static/img/bunny-rabbit.png
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded.
+
+The HTML pages are in _out.
+```
+
+When the build is complete, open the `_out/index.html` file in a web browser to view the results.
+
+> :bulb: **Run `sphinx-build --help` for more options.**
+
+#### Autobuild with live-reloads
+
+If you are working on the docs (e.g., writing or editing), you may find the [sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/) program more useful than `sphinx-build` (see previous section). When `sphinx-autobuild` detects a change in your RST files, it rebuilds the corresponding HTML and [reloads](https://www.npmjs.com/package/livereload) the browser so that you can see the changes immediately.
+
+The `sphinx-autobuild` program is not listed in the [requirements](https://github.com/norosa/hunting-unicorns/tree/master/docs/requirements.txt) file because it is not necessary for automated builds. If you would like to use this tool, first install it into your virtual environment:
+
+```console
+$ python3 -m pip install sphinx-autobuild
+```
+
+Then, for example, you could run:
+
+```console
+$ sphinx-autobuild --open-browser --delay 1 -b html . _out
+[...]
+Running Sphinx v3.5.3
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 0 source files that are out of date
+updating environment: 0 added, 0 changed, 0 removed
+looking for now-outdated files... none found
+no targets are out of date.
+build succeeded.
+
+The HTML pages are in _out.
+[I 210514 17:36:39 server:335] Serving on http://127.0.0.1:8000
+[I 210514 17:36:39 handlers:62] Start watching changes
+[I 210514 17:36:39 handlers:64] Start detecting changes
+[I 210514 17:36:41 handlers:135] Browser Connected: http://127.0.0.1:8000/
+```
+
+This command starts a lightweight web server that serves the HTML documentation at http://127.0.0.1:8000/ and will continue to run (and print information to the console) until you terminate the program (e.g., with <kbd>CTRL</kbd>+<kbd>C</kbd>).
+
+If you pass the `--open-browser` argument to the command (as above), it will open the HTML documentation in a new browser window after the web server has started.
+
+Once you have the top-level `index.html` open in a browser window, you can test your setup by editing the corresponding `index.rst` file and saving your changes. After a short delay, the browser window should reload, and your changes should be visible.
+
+> :bulb: **Run `sphinx-autobuild --help` for more options.**
+
+### Troubleshooting
+
+Sometimes, the build may stop updating the HTML like you expect. If this
+happens, terminate the build command and try again. If the problem persists,
+try resetting the build output and starting from scratch. You can reset the
+build output by removing the `_out` directory:
+
+```console
+$ rm -rf _out
+```
+
+If you experience any other issues, try resetting the Python virtual environment and then [recreate it again](#build-requirements) from scratch. You can reset the virtual environment by removing the `_venv` directory:
+
+```console
+$ rm -rf _venv
 ```
 
 ## Contributing
 
-Have experience hunting unicorns? Tried something in this guide that didn't work or could be improved? We want your contribution! Open an issue or send a pull request.
+Do you have experience hunting unicorns? Have you tried something in this guide that didn't work or could be improved? We welcome contributions of all types. A good way to get started is by opening a [new issue](https://github.com/norosa/hunting-unicorns/issues) creating a [pull request](https://github.com/norosa/hunting-unicorns/pulls). Thank you! :sparkles:
 
 ## License
 
-Copyright 2016, the project contributors. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Copyright 2021, the project contributors
+
+This work is licensed under the [Apache License, Version 2.0](https://github.com/norosa/hunting-unicorns/blob/nomi/docs-docs/LICENSE.txt).
+

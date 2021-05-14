@@ -1,3 +1,5 @@
 .DS_Store
-_build
+_out
+_venv
 Thumbs.db
+venv
