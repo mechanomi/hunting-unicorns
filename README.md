@@ -1,10 +1,8 @@
 # Hunting Unicorns With Goblin Technology: A Quick Start Guide
 
-[![Build status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](http://hunting-unicorns.readthedocs.io/en/latest/?badge=latest) [![Total alerts](https://img.shields.io/lgtm/alerts/g/norosa/hunting-unicorns.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/norosa/hunting-unicorns/alerts/)
+[![Build status](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest)](https://readthedocs.org/projects/hunting-unicorns/badge/?version=latest) [![Total alerts](https://img.shields.io/lgtm/alerts/g/norosa/hunting-unicorns.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/norosa/hunting-unicorns/alerts/)
 
 This documentation project is written in [reStructuredText](http://sphinx-doc.org/rest.html) (RST) and is built using [Sphinx](http://www.sphinx-doc.org/) with the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
-
-We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integration](https://docs.readthedocs.io/en/stable/pull-requests.html) and [continuous deployment](https://docs.readthedocs.io/en/stable/webhooks.html). Visit the [hunting-unicorns](https://readthedocs.org/projects/hunting-unicorns/) RTD project page for more information.
 
 The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
 
@@ -155,6 +153,8 @@ $ rm -rf _venv
 
 ## Continuous integration
 
+We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integration](https://docs.readthedocs.io/en/stable/pull-requests.html) and [continuous deployment](https://docs.readthedocs.io/en/stable/webhooks.html). Visit the [hunting-unicorns](https://readthedocs.org/projects/hunting-unicorns/) (maintainer access only) RTD project page for more information.
+
 Every pull request must satisfy all configured checks before being merged:
 
 - A [GitHub Actions](https://github.com/features/actions) workflow named [Prose](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/prose.yml) has two steps:
@@ -162,6 +162,10 @@ Every pull request must satisfy all configured checks before being merged:
   1. **Run linter** uses the [official GitHub Vale action](https://github.com/errata-ai/vale-action) to lint all Markdown and RST files. We have configured [Vale](https://github.com/errata-ai/vale) to use [proselint](https://github.com/errata-ai/proselint) as an initial experiment. However, this setup has the possibility of being expanded into an automated style guide.
 
   2. **Vale** reports any lint messages produced for lines modified by the pull request. Each message carries an associated severity: *suggestion*, *warning*, and *error*. Errors and warnings must be resolved. Suggestions may be ignored.
+
+- A [GitHub Actions](https://github.com/features/actions) workflow named [Link checks](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/link-checks.yml) with one step:
+
+  1. **Markdown** checks all Markdown documents for broken links.
 
 - [Read The Docs](https://docs.readthedocs.io/en/stable/pull-requests.html) attempts to build Sphinx docs on every pull request. If the build succeeds, you can select *Details* on this check to preview the documentation on the corresponding branch.
 
