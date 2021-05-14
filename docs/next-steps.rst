@@ -1,9 +1,12 @@
+.. _next-steps:
+
+==========
 Next Steps
 ==========
 
 .. sidebar:: Success
 
-   .. image:: _static/dead-unicorn.png
+   .. image:: _static/img/dead-unicorn.png
 
    A harrowing depiction of what to expect at the scene of impact.
 
@@ -16,4 +19,5 @@ Once you have come to terms with what you have done, collect all the raw unicorn
 The resources you acquired will sell for a high price at your local auction house, if it is even legal to trade in unicorn-derived goods where you live. We assume you checked this before embarking on your expedition.
 
 .. TODO::
+
    As some readers have pointed out, blowing up unicorns is not a particularly efficient way of harvesting their materials. Future editions will address this shortcoming.
