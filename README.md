@@ -25,13 +25,13 @@ The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
 
 To build the docs locally, you must have [Python 3](https://www.python.org/downloads/) installed.
 
-Change into the [docs](https://github.com/norosa/hunting-unicorns/tree/master/docs) directory:
+Change into the [docs](https://github.com/norosa/hunting-unicorns/tree/main/docs) directory:
 
 ```console
 $ cd docs
 ```
 
-We recommend that you create a Python [virtual environment](https://docs.python.org/3/tutorial/venv.html) to install and manage the build [requirements](https://github.com/norosa/hunting-unicorns/tree/master/docs/requirements.txt).
+We recommend that you create a Python [virtual environment](https://docs.python.org/3/tutorial/venv.html) to install and manage the build [requirements](https://github.com/norosa/hunting-unicorns/tree/main/docs/requirements.txt).
 
 You can create a new virtual environment with the [venv](https://docs.python.org/3/library/venv.html)  module, like so:
 
@@ -63,7 +63,7 @@ $ python3 -m pip install -r requirements.txt
 
 #### Manual build
 
-The [sphinx-build](https://www.sphinx-doc.org/en/3.x/man/sphinx-build.html) program (which has already been installed into your virtual environment if you followed the instructions above) can generate a static HTML site from the RST source files. RTD uses this program to build the docs on their infrastructure whenever the `master` branch (or a pull request) receives an update.
+The [sphinx-build](https://www.sphinx-doc.org/en/3.x/man/sphinx-build.html) program (which has already been installed into your virtual environment if you followed the instructions above) can generate a static HTML site from the RST source files. RTD uses this program to build the docs on their infrastructure whenever the `main` branch (or a pull request) receives an update.
 
 You can try this method for yourself:
 
@@ -100,7 +100,7 @@ When the build is complete, open the `_out/index.html` file in a web browser to 
 
 If you are working on the docs (e.g., writing or editing), you may find the [sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/) program more useful than `sphinx-build` (see previous section). When `sphinx-autobuild` detects a change in your RST files, it rebuilds the corresponding HTML and [reloads](https://www.npmjs.com/package/livereload) the browser so that you can see the changes immediately.
 
-The `sphinx-autobuild` program is not listed in the [requirements](https://github.com/norosa/hunting-unicorns/tree/master/docs/requirements.txt) file because it is not necessary for automated builds. If you would like to use this tool, first install it into your virtual environment:
+The `sphinx-autobuild` program is not listed in the [requirements](https://github.com/norosa/hunting-unicorns/tree/main/docs/requirements.txt) file because it is not necessary for automated builds. If you would like to use this tool, first install it into your virtual environment:
 
 ```console
 $ python3 -m pip install sphinx-autobuild
