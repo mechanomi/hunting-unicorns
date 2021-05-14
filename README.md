@@ -15,7 +15,7 @@ The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
     + [Build methods](#build-methods)
       - [Manual build](#manual-build)
       - [Autobuild with live-reloads](#autobuild-with-live-reloads)
-    + [Troubleshooting](#troubleshooting)
+    + [Troubleshooting the build](#troubleshooting-the-build)
   * [Continuous integration](#continuous-integration)
   * [Contributing](#contributing)
   * [License](#license)
@@ -136,7 +136,7 @@ Once you have the top-level `index.html` open in a browser window, you can test 
 
 > :bulb: **Run `sphinx-autobuild --help` for more options.**
 
-### Troubleshooting
+### Troubleshooting the build
 
 Sometimes, the build may stop updating the HTML like you expect. If this
 happens, terminate the build command and try again. If the problem persists,
@@ -157,7 +157,7 @@ $ rm -rf _venv
 
 Every pull request must satisfy all configured checks before being merged:
 
-- A [GitHub Actions](https://github.com/features/actions) workflow named [Prose](https://github.com/norosa/hunting-unicorns/blob/nomi/vale/.github/workflows/prose.yml) has two steps:
+- A [GitHub Actions](https://github.com/features/actions) workflow named [Prose](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/prose.yml) has two steps:
 
   1. **Run linter** uses the [official GitHub Vale action](https://github.com/errata-ai/vale-action) to lint all Markdown and RST files. We have configured [Vale](https://github.com/errata-ai/vale) to use [proselint](https://github.com/errata-ai/proselint) as an initial experiment. However, this setup has the possibility of being expanded into an automated style guide.
 
@@ -175,5 +175,5 @@ Do you have experience hunting unicorns? Have you tried something in this guide 
 
 Copyright 2021, the project contributors
 
-This work is licensed under the [Apache License, Version 2.0](https://github.com/norosa/hunting-unicorns/blob/nomi/docs-docs/LICENSE.txt).
+This work is licensed under the [Apache License, Version 2.0](https://github.com/norosa/hunting-unicorns/blob/main/LICENSE.txt).
 
