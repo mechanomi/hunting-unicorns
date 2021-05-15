@@ -12,7 +12,8 @@ The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
     + [Build requirements](#build-requirements)
     + [Build methods](#build-methods)
       - [Manual build](#manual-build)
-      - [Autobuild with live-reloads](#autobuild-with-live-reloads)
+      - [Autobuild with live reloads](#autobuild-with-live-reloads)
+    + [Build script](#build-script)
     + [Troubleshooting the build](#troubleshooting-the-build)
   * [Continuous integration](#continuous-integration)
   * [Contributing](#contributing)
@@ -60,7 +61,7 @@ You can try this method for yourself:
 
 ```console
 $ _venv/bin/sphinx-build -b html . _out
-Running Sphinx v3.5.3
+Running Sphinx v3.5.4
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
 building [html]: targets for 5 source files that are out of date
@@ -87,7 +88,7 @@ When the build is complete, open the `_out/index.html` file in a web browser to 
 
 > :bulb: **Run `_venv/bin/sphinx-build --help` for more options.**
 
-#### Autobuild with live-reloads
+#### Autobuild with live reloads
 
 If you are working on the docs (e.g., writing or editing), you may find the [sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/) program more useful than `sphinx-build` (see previous section). When `sphinx-autobuild` detects a change in your RST files, it rebuilds the corresponding HTML and [reloads](https://www.npmjs.com/package/livereload) the browser so that you can see the changes immediately.
 
@@ -102,7 +103,7 @@ Then, for example, you could run:
 ```console
 $ _venv/bin/sphinx-autobuild --open-browser --delay 1 -b html . _out
 [...]
-Running Sphinx v3.5.3
+Running Sphinx v3.5.4
 loading pickled environment... done
 building [mo]: targets for 0 po files that are out of date
 building [html]: targets for 0 source files that are out of date
@@ -125,6 +126,34 @@ If you pass the `--open-browser` argument to the command (as above), it will ope
 Once you have the top-level `index.html` open in a browser window, you can test your setup by editing the corresponding `index.rst` file and saving your changes. After a short delay, the browser window should reload, and your changes should be visible.
 
 > :bulb: **Run `_venv/bin/sphinx-autobuild --help` for more options.**
+
+### Build script
+
+For convenience, there is a small script named [autobuild.sh](https://github.com/norosa/hunting-unicorns/tree/main/docs/autobuild.sh) that installs the [build requirements](#build-requirements) (if necessary) and starts an [autobuild with live reloads](#autobuild-with-live-reloads).
+
+You can run the script like this:
+
+```console
+$ ./autobuild.sh
+[...]
+Running Sphinx v3.5.4
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 0 source files that are out of date
+updating environment: 0 added, 0 changed, 0 removed
+looking for now-outdated files... none found
+no targets are out of date.
+build succeeded.
+
+The HTML pages are in _out.
+[I 210515 21:23:17 server:335] Serving on http://127.0.0.1:8000
+[I 210515 21:23:17 handlers:62] Start watching changes
+[I 210515 21:23:17 handlers:64] Start detecting changes
+```
+
+We designed this script for people who regularly work on the docs because it makes it easy to run the same build every time without remembering any command specifics.
+
+> :bulb: **Please feel free to modify this script and share your improvements.**
 
 ### Troubleshooting the build
 
