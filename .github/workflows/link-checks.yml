@@ -1,9 +1,9 @@
-name: Links
+name: Link checks
 on: [push]
 
 jobs:
   markdown:
-    name: Markdown link checks
+    name: Markdown links
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
