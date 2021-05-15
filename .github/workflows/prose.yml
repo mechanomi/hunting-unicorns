@@ -1,4 +1,4 @@
-name: Prose lint
+name: Prose
 on: [push]
 
 jobs:

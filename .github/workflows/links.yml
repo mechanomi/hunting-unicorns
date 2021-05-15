@@ -1,12 +1,12 @@
-name: Link checks
+name: Links
 on: [push]
 
 jobs:
   markdown:
-    name: Markdown
+    name: Markdown link checks
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
-        config-file: '.md-link-check.json'
+        config-file: '.md-link-checks.json'
