@@ -157,10 +157,7 @@ We designed this script for people who regularly work on the docs because it mak
 
 ### Troubleshooting the build
 
-Sometimes, the build may stop updating the HTML like you expect. If this
-happens, terminate the build command and try again. If the problem persists,
-try resetting the build output and starting from scratch. You can reset the
-build output by removing the `_out` directory:
+Sometimes, the build may stop updating the HTML like you expect. If this happens, terminate the build command and try again. If the problem persists, try resetting the build output and starting from scratch. You can reset the build output by removing the `_out` directory:
 
 ```console
 $ rm -rf _out
@@ -201,4 +198,3 @@ Do you have experience hunting unicorns? Have you tried something in this guide 
 Copyright 2021, the project contributors
 
 This work is licensed under the [Apache License, Version 2.0](https://github.com/norosa/hunting-unicorns/blob/main/LICENSE.txt).
-
