@@ -1,8 +1,8 @@
-name: Prose
+name: Prose lint
 on: [push]
 
 jobs:
-  lint:
+  run:
     name: Run linter
     runs-on: ubuntu-latest
     steps:
