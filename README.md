@@ -38,24 +38,16 @@ You can create a new virtual environment with the [venv](https://docs.python.org
 $ python3 -m venv _venv
 ```
 
-Next, activate the virtual environment:
+After creating the virtual environment, make sure [pip](https://pypi.org/project/pip/) is up-to-date:
 
 ```console
-$ . _venv/bin/activate
-```
-
-> :warning: **Every time you start a new shell, you must re-run the `. _venv/bin/activate` command before running any of the subsequent build commands.**
-
-After activating the virtual environment, make sure [pip](https://pypi.org/project/pip/) is up-to-date:
-
-```console
-$ python3 -m pip install --upgrade pip
+$ _venv/bin/python3 -m pip install --upgrade pip
 ```
 
 Then, install the requirements:
 
 ```console
-$ python3 -m pip install -r requirements.txt
+$ _venv/bin/python3 -m pip install -r requirements.txt
 ```
 
 ### Build methods
@@ -67,7 +59,7 @@ The [sphinx-build](https://www.sphinx-doc.org/en/3.x/man/sphinx-build.html) prog
 You can try this method for yourself:
 
 ```console
-$ sphinx-build -b html . _out
+$ _venv/bin/sphinx-build -b html . _out
 Running Sphinx v3.5.3
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
@@ -93,7 +85,7 @@ The HTML pages are in _out.
 
 When the build is complete, open the `_out/index.html` file in a web browser to view the results.
 
-> :bulb: **Run `sphinx-build --help` for more options.**
+> :bulb: **Run `_venv/bin/sphinx-build --help` for more options.**
 
 #### Autobuild with live-reloads
 
@@ -102,13 +94,13 @@ If you are working on the docs (e.g., writing or editing), you may find the [sph
 The `sphinx-autobuild` program is not listed in the [requirements](https://github.com/norosa/hunting-unicorns/tree/main/docs/requirements.txt) file because it is not necessary for automated builds. If you would like to use this tool, first install it into your virtual environment:
 
 ```console
-$ python3 -m pip install sphinx-autobuild
+$ _venv/bin/python3 -m pip install sphinx-autobuild
 ```
 
 Then, for example, you could run:
 
 ```console
-$ sphinx-autobuild --open-browser --delay 1 -b html . _out
+$ _venv/bin/sphinx-autobuild --open-browser --delay 1 -b html . _out
 [...]
 Running Sphinx v3.5.3
 loading pickled environment... done
@@ -132,7 +124,7 @@ If you pass the `--open-browser` argument to the command (as above), it will ope
 
 Once you have the top-level `index.html` open in a browser window, you can test your setup by editing the corresponding `index.rst` file and saving your changes. After a short delay, the browser window should reload, and your changes should be visible.
 
-> :bulb: **Run `sphinx-autobuild --help` for more options.**
+> :bulb: **Run `_venv/bin/sphinx-autobuild --help` for more options.**
 
 ### Troubleshooting the build
 
