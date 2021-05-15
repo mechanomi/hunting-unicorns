@@ -157,7 +157,7 @@ We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integrati
 
 Every pull request must satisfy all configured checks before being merged:
 
-- A [GitHub Actions](https://github.com/features/actions) workflow named [Prose](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/prose.yml) has two steps:
+- A [GitHub Actions](https://github.com/features/actions) workflow named [Prose lint](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/prose-lint.yml) has two steps:
 
   1. **Run linter** uses the [official GitHub Vale action](https://github.com/errata-ai/vale-action) to lint all Markdown and RST files. We have configured [Vale](https://github.com/errata-ai/vale) to use [proselint](https://github.com/errata-ai/proselint) as an initial experiment. However, this setup has the possibility of being expanded into an automated style guide.
 
