@@ -153,7 +153,7 @@ $ rm -rf _venv
 
 ## Continuous integration
 
-We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integration](https://docs.readthedocs.io/en/stable/pull-requests.html) and [continuous deployment](https://docs.readthedocs.io/en/stable/webhooks.html). Visit the [hunting-unicorns](https://readthedocs.org/projects/hunting-unicorns/) (maintainer access only) RTD project page for more information.
+We use [Read The Docs](https://readthedocs.org/) (RTD) for [continuous integration](https://docs.readthedocs.io/en/stable/pull-requests.html) and [continuous deployment](https://docs.readthedocs.io/en/stable/webhooks.html). Visit the [hunting-unicorns](https://readthedocs.org/projects/hunting-unicorns/)  RTD project page (maintainer access only) for more information.
 
 Every pull request must satisfy all configured checks before being merged:
 
