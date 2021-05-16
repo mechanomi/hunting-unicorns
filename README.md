@@ -90,7 +90,7 @@ When the build is complete, open the `_out/index.html` file in a web browser to 
 
 #### Autobuild with live reloads
 
-If you are working on the docs (e.g., writing or editing), you may find the [sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/) program more useful than `sphinx-build` (see previous section). When `sphinx-autobuild` detects a change in your RST files, it rebuilds the corresponding HTML and [reloads](https://www.npmjs.com/package/livereload) the browser so that you can see the changes immediately.
+If you are working on the docs (e.g., writing or editing), you may find the [sphinx-autobuild](https://pypi.org/project/sphinx-autobuild/) program more useful than `sphinx-build` (see the previous section). When `sphinx-autobuild` detects a change in your RST files, it rebuilds the corresponding HTML and [reloads](https://www.npmjs.com/package/livereload) the browser so that you can see the changes immediately.
 
 The `sphinx-autobuild` program is not listed in the [requirements](https://github.com/norosa/hunting-unicorns/tree/main/docs/requirements.txt) file because it is not necessary for automated builds. If you would like to use this tool, first install it into your virtual environment:
 
@@ -119,11 +119,11 @@ The HTML pages are in _out.
 [I 210514 17:36:41 handlers:135] Browser Connected: http://127.0.0.1:8000/
 ```
 
-This command starts a lightweight web server that serves the HTML documentation at http://127.0.0.1:8000/ and will continue to run (and print information to the console) until you terminate the program (e.g., with <kbd>CTRL</kbd>+<kbd>C</kbd>).
+This command starts a lightweight webserver that serves the HTML documentation at http://127.0.0.1:8000/ and will continue to run (and print information to the console) until you terminate the program (e.g., with <kbd>CTRL</kbd>+<kbd>C</kbd>).
 
-If you pass the `--open-browser` argument to the command (as above), it will open the HTML documentation in a new browser window after the web server has started.
+If you pass the `--open-browser` argument to the command (as above), it will open the HTML documentation in a new browser window after the webserver has started.
 
-Once you have the top-level `index.html` open in a browser window, you can test your setup by editing the corresponding `index.rst` file and saving your changes. After a short delay, the browser window should reload, and your changes should be visible.
+Once you have the top-level `index.html` open in a browser window, you can test your setup by editing the corresponding `index.rst` file and then save your changes. After a short delay, the browser window should reload, and your changes should be visible.
 
 > :bulb: **Run `_venv/bin/sphinx-autobuild --help` for more options.**
 
@@ -157,7 +157,7 @@ We designed this script for people who regularly work on the docs because it mak
 
 ### Troubleshooting the build
 
-Sometimes, the build may stop updating the HTML like you expect. If this happens, terminate the build command and try again. If the problem persists, try resetting the build output and starting from scratch. You can reset the build output by removing the `_out` directory:
+Sometimes, the build may stop updating the HTML as you expect. If this happens, terminate the build command and try again. If the problem persists, try resetting the build output and starting from scratch. You can reset the build output by removing the `_out` directory:
 
 ```console
 $ rm -rf _out
@@ -179,9 +179,9 @@ Every pull request must satisfy all configured checks before being merged:
 
   1. *Prose lint* — Uses the [official GitHub Vale action](https://github.com/errata-ai/vale-action) to lint all Markdown and RST files. We have configured [Vale](https://github.com/errata-ai/vale) to use [proselint](https://github.com/errata-ai/proselint) as an initial experiment. However, this setup has the possibility of being expanded into an automated style guide.
 
-  2. *Vale* — Reports any lint messages produced for lines modified by the pull request. Each message carries an associated severity: *suggestion*, *warning*, and *error*. Errors and warnings must be resolved. Suggestions may be ignored.
+  2. *Vale* — Reports any lint messages produced for lines modified by the pull request. Each message carries an associated severity: *suggestion*, *warning*, and *error*. You must resolve errors and warnings. You may ignore suggestions.
 
-- A [GitHub Actions](https://github.com/features/actions) workflow named [Link checks](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/links.yml) with one step:
+- A [GitHub Actions](https://github.com/features/actions) workflow named [Link checks](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/link-checks.yml) with one step:
 
   1. *Markdown link* — Checks Markdown documents for broken links.
 
@@ -191,7 +191,7 @@ Every pull request must satisfy all configured checks before being merged:
 
 ## Contributing
 
-Do you have experience hunting unicorns? Have you tried something in this guide that didn't work or could be improved? We welcome contributions of all types. A good way to get started is by opening a [new issue](https://github.com/norosa/hunting-unicorns/issues) creating a [pull request](https://github.com/norosa/hunting-unicorns/pulls). Thank you! :sparkles:
+Do you have experience hunting unicorns? Have you tried something in this guide that didn't work or could be improved? We welcome contributions of all types. An excellent way to get started is by opening a [new issue](https://github.com/norosa/hunting-unicorns/issues) creating a [pull request](https://github.com/norosa/hunting-unicorns/pulls). Thank you! :sparkles:
 
 ## License
 
