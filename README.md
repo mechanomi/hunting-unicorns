@@ -4,7 +4,9 @@
 
 This documentation project is written in [reStructuredText](http://sphinx-doc.org/rest.html) (RST) and is built using [Sphinx](http://www.sphinx-doc.org/) with the [Read the Docs theme](https://github.com/snide/sphinx_rtd_theme).
 
-The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD.
+The [live docs](https://hunting-unicorns.readthedocs.io/) are hosted on RTD:
+
+[![Screenshot of the live docs](screenshot.png)](https://hunting-unicorns.readthedocs.io/)
 
 **Table of contents**
 
