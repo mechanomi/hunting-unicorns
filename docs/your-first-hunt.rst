@@ -42,7 +42,7 @@ Set up the detection system
 
 As your first task, you must set up your :ref:`unsupervised detection system <prep-equipment>`.
 
-*The Combo Radar and Alerting System 3000* comes with eight remote sensors which can easily be attached to trees and other surfaces.
+*The Combo Radar and Alerting System 3000* comes with eight remote sensors which can be easily attached to trees and other surfaces.
 
 Carefully unpack each sensor and check the phlogiston levels. You should top up each sensor with phlogiston to help make sure they do not run out of power while you're waiting.
 
@@ -86,7 +86,7 @@ You can now return to your hideout.
 
 .. WARNING::
 
-   If the status light on your lure displays an unexpected color at any point, consult the troubleshooting section of the device manual *immediately*.
+   If the status light on your lure displays an unexpected color at any point, consult the *Troubleshooting* section of the device manual *immediately*.
 
 
 .. _first-hunt-wait:
@@ -98,7 +98,7 @@ You're back in your hideout, the magical lure system is running, and your sensor
 
 Now, unpack the *Goblin Rocket Launcher XXL*, clean it :ref:`very carefully <intro-goblin-explosives>`, check the phlogiston levels, and load it with a single rocket.
 
-Pace the rocket launcher somewhere handy. Then, get comfortable, put the headphones on that came with your unsupervised detection system, and wait.
+Place the rocket launcher somewhere handy. Then, get comfortable, put the headphones on that came with your unsupervised detection system, and wait.
 
 If anything steps into the glade or clearing, you should hear a soft ping. Check the detection monitor. The graphical display should tell you more about what the system has detected. Expect most of the pings to be uninteresting animals.
 

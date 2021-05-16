@@ -58,7 +58,7 @@ There are two common ways to hunt magical beasts:
 
 These aren't your only options, however.
 
-There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any goblin trading posts. And, in addition, it is relatively inexpensive in comparison to gnome and dwarf technology.
+There is a vast array of goblin-made technology products on the market that can help you hunt unicorns. Goblin technology is abundant, being available in almost every auction house and from any goblin trading post. And, in addition, it is relatively inexpensive in comparison to gnome and dwarf technology.
 
 Unfortunately, goblin technology can be very unreliable and often comes with no warranty. Whether the risks posed by this are acceptable will depend on your specific circumstances and requirements.
 
@@ -68,4 +68,4 @@ Unfortunately, goblin technology can be very unreliable and often comes with no 
 
    Goblins are known for their fondness for explosives.
 
-   When goblin technology malfunctions, it usually does so with a *BANG*, even when there is no logical reason for the device to have contained explosives in the first place. This sort of malfunction can result in the *rapid unscheduled disassembly* of your equipment or, if you are standing too close, yourself. Plan accordingly.
+   When goblin technology malfunctions, it usually does so with a *BANG*—even when there is no logical reason for the device to have contained explosives in the first place. This sort of malfunction can result in the *rapid unscheduled disassembly* of your equipment or, if you are standing too close, yourself. Plan accordingly.

@@ -28,7 +28,7 @@ For the above three requirements, we recommend:
 - *The Combo Radar and Alerting System 3000*
 - *Goblin Rocket Launcher XXL*
 
-Feel free to make your product selections according to availability and budget. As previously mentioned: goblin-made technology is not known for its reliability, so be sure to check the reviews before purchasing.
+Feel free to make your product selections according to availability and budget. As previously mentioned: goblin-made technology is :ref:`not known for its reliability <intro-goblin-explosives>`, so be sure to check the reviews before purchasing.
 
 The rest of this guide will assume you're using the recommended products, but the instructions should work for most items.
 
@@ -78,7 +78,7 @@ Freshly caught bait is preferable because it still retains most of its magic, ma
 
 .. NOTE::
 
-   If you're buying pre-prepared bunny rabbits, butterflies, or fawn flanks, be sure to buy the magical variety (i.e., hand-sourced from an enchanted forest).
+   If you're buying pre-prepared bunny rabbits, butterflies, or fawn flanks, be sure to buy the magical variety (i.e., hand-sourced from an :ref:`enchanted forest <prep-location>`).
 
 
 .. _prep-location:
@@ -94,10 +94,10 @@ Some important considerations:
 
 - As mentioned previously, Goblin technology is :ref:`prone to exploding <intro-goblin-explosives>`, especially when jostled. Lessen the chance of loss of life by choosing the most accessible route (e.g., using paved roads) and trying to keep your journey time as short as possible.
 
-- Size is always a trade-off. The smallest enchanted forests are the safest but also present the least opportunities for catching unicorns. The most extensive forests prove better hunting grounds but often attract the most dangerous beasts and most powerful, malevolent magic.
+- Size is always a trade-off. The smallest enchanted forests are the safest but also present the fewest opportunities for catching unicorns. The most extensive forests prove better hunting grounds but often attract the most dangerous beasts and most powerful, malevolent magic.
 
 .. _prep-location-lorekeeper:
 
 .. CAUTION::
 
-   Don't rely on the gossip in your local tavern. Check with your local lorekeeper before selecting a forest. Consulting a lorekeeper may cost a small amount of gold, but for many, the peace of mind is worth it, knowing for sure what sort of adventure awaits you.
+   Don't rely on the gossip in your local tavern. Check with your local lorekeeper before selecting a forest. Consulting a lorekeeper may cost a small amount of gold, but for many people, the peace of mind is worth it, knowing for sure what sort of adventure awaits you.

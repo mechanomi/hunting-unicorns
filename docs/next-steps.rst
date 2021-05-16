@@ -10,7 +10,7 @@ Next steps
 
    This harrowing crime-scene photo depicts the typical results at the site of rocket impact.
 
-Congratulations. You *murdered* your first unicorn. Are you proud of yourself?
+Congratulations. You *murdered* your first unicorn. Are you proud of yourself, you monster?
 
 As noted in the first section, you are now :ref:`cursed for life <intro-unicorns-curse>` (probably).
 
