@@ -185,9 +185,9 @@ Every pull request must satisfy all configured checks before being merged:
 
 - A [GitHub Actions](https://github.com/features/actions) workflow named [Link checks](https://github.com/norosa/hunting-unicorns/blob/main/.github/workflows/link-checks.yml) with one step:
 
-  1. *Markdown link* — Checks Markdown documents for broken links.
+  1. *Markdown links* — Checks Markdown documents for broken links.
 
-- [Read The Docs](https://docs.readthedocs.io/en/stable/pull-requests.html) attempts to build Sphinx docs on every pull request. If the build succeeds, you can select *Details* on this check to preview the documentation on the corresponding branch.
+- [Read The Docs](https://docs.readthedocs.io/en/stable/pull-requests.html) attempts to build the Sphinx docs on every pull request. If the build succeeds, you can select *Details* on this check to preview the documentation on the corresponding branch.
 
 - [LGTM](https://lgtm.com/) analyzes Python code for common security issues. Select *Details* on this check for information about any detected issues.
 
