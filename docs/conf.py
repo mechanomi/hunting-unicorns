@@ -55,8 +55,8 @@ subtitle = "A Quick Start Guide"
 full_title = "%s: %s" % (title, subtitle)
 slug = "hunting-unicorns"
 project = full_title
-copyright = "2021, the project contributors. This work is licensed under the \
-Creative Commons Attribution 4.0 International License"
+copyright = "2021, the project contributors. Licensed under the Apache \
+License Version 2.0"
 author = ""
 
 # The version info for the project you're documenting, acts as replacement for
